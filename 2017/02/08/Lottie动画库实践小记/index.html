@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Lottie动画库实践小记 | Hexo</title>
+    <title>Lottie动画库实践小记 | wink.stu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
-    <meta name="author" content="John Doe">
+    <meta name="author" content="wink.stu">
     
 
     
@@ -16,7 +16,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Lottie动画库实践小记">
 <meta property="og:url" content="http://yoursite.com/2017/02/08/Lottie动画库实践小记/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="wink.stu">
 <meta property="og:description" content="前言_(:3」∠)_  好紧张，第一次写文章，2017年开工之前收到一篇推送，这个项目碉堡了。在感叹这个动画库碉堡之余，也想起自己在玩AE（After Effects）的时候也有类似的想法“在AE上编辑的动画直接能再程序用该多啊”。因为笔者之前有关注过motion动画,在AE上做过一些动画，正好可以作为demo，下面就是笔者实践过程。(笑)
 安装bodymovin下载bodymovin官方描述是一">
 <meta property="og:image" content="https://raw.githubusercontent.com/winkstu/file/master/ice.gif">
@@ -28,7 +28,7 @@
 <meta name="twitter:image" content="https://raw.githubusercontent.com/winkstu/file/master/ice.gif">
 
     
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="wink.stu" type="application/atom+xml">
     
     
     <link rel="icon" href="/img/favicon.ico">
@@ -46,14 +46,14 @@
 <div>
 		
 			<div id="imglogo">
-				<a href="/"><img src="/img/logo.png" alt="Hexo" title="Hexo"/></a>
+				<a href="/"><img src="/img/logo.png" alt="wink.stu" title="wink.stu"/></a>
 			</div>
 			
 			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="Hexo">Hexo</a></h1>
+				<h1 class="site-name"><a href="/" title="wink.stu">wink.stu</a></h1>
 				<h2 class="blog-motto"></h2>
 			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
 			</a></div>
 			<nav class="animated">
 				<ul>
@@ -69,7 +69,7 @@
  					
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
 						<input type="hidden" name="q" value="site:yoursite.com">
 					</form>
 					
@@ -89,17 +89,17 @@
   </h1>
   <p class="article-author">By
        
-		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
+		<a href="/about" title="wink.stu" target="_blank" itemprop="author">wink.stu</a>
 		
   <p class="article-time">
-    <time datetime="2017-02-08T14:22:14.000Z" itemprop="datePublished"> 发表于 2017-02-08</time>
+    <time datetime="2017-02-08T14:22:14.000Z" itemprop="datePublished"> Published 2017-02-08</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
 		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
+			<strong class="toc-title">Contents</strong>
 		
 			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装bodymovin"><span class="toc-number">2.</span> <span class="toc-text">安装bodymovin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何使用"><span class="toc-number">3.</span> <span class="toc-text">如何使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#After-Effects"><span class="toc-number">3.1.</span> <span class="toc-text">After Effects</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lottie"><span class="toc-number">3.2.</span> <span class="toc-text">Lottie</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#已支持的After-Effects动画特性"><span class="toc-number">4.</span> <span class="toc-text">已支持的After Effects动画特性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Keyframe-Interpolation→-关键帧插值器"><span class="toc-number">4.1.</span> <span class="toc-text">Keyframe Interpolation→ 关键帧插值器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Solids→-固态层"><span class="toc-number">4.2.</span> <span class="toc-text">Solids→ 固态层</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Masks→-遮罩"><span class="toc-number">4.3.</span> <span class="toc-text">Masks→ 遮罩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Track-Mattes→-轨道蒙版"><span class="toc-number">4.4.</span> <span class="toc-text">Track Mattes→ 轨道蒙版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Parenting→-父级"><span class="toc-number">4.5.</span> <span class="toc-text">Parenting→ 父级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Shape-Layers→形状图层"><span class="toc-number">4.6.</span> <span class="toc-text">Shape Layers→形状图层</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Stroke-shape-layer-→描边（形状图层）"><span class="toc-number">4.6.1.</span> <span class="toc-text">Stroke (shape layer)→描边（形状图层）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Fill-shape-layer-→填充（形状图层）"><span class="toc-number">4.6.2.</span> <span class="toc-text">Fill (shape layer)→填充（形状图层）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Trim-Paths-shape-layer-→修剪路径（形状图层）"><span class="toc-number">4.6.3.</span> <span class="toc-text">Trim Paths (shape layer)→修剪路径（形状图层）</span></a></li></ol></li></ol></li></ol>
 		
@@ -253,7 +253,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://yoursite.com/2017/02/08/Lottie动画库实践小记/" data-title="Lottie动画库实践小记 | Hexo" data-tsina="null" class="share clearfix">
+	  <div data-url="http://yoursite.com/2017/02/08/Lottie动画库实践小记/" data-title="Lottie动画库实践小记 | wink.stu" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -280,17 +280,17 @@
 	
 
 </div>  
-      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
   <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
+  <strong class="toc-title">Contents</strong>
  
  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装bodymovin"><span class="toc-number">2.</span> <span class="toc-text">安装bodymovin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何使用"><span class="toc-number">3.</span> <span class="toc-text">如何使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#After-Effects"><span class="toc-number">3.1.</span> <span class="toc-text">After Effects</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lottie"><span class="toc-number">3.2.</span> <span class="toc-text">Lottie</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#已支持的After-Effects动画特性"><span class="toc-number">4.</span> <span class="toc-text">已支持的After Effects动画特性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Keyframe-Interpolation→-关键帧插值器"><span class="toc-number">4.1.</span> <span class="toc-text">Keyframe Interpolation→ 关键帧插值器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Solids→-固态层"><span class="toc-number">4.2.</span> <span class="toc-text">Solids→ 固态层</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Masks→-遮罩"><span class="toc-number">4.3.</span> <span class="toc-text">Masks→ 遮罩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Track-Mattes→-轨道蒙版"><span class="toc-number">4.4.</span> <span class="toc-text">Track Mattes→ 轨道蒙版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Parenting→-父级"><span class="toc-number">4.5.</span> <span class="toc-text">Parenting→ 父级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Shape-Layers→形状图层"><span class="toc-number">4.6.</span> <span class="toc-text">Shape Layers→形状图层</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Stroke-shape-layer-→描边（形状图层）"><span class="toc-number">4.6.1.</span> <span class="toc-text">Stroke (shape layer)→描边（形状图层）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Fill-shape-layer-→填充（形状图层）"><span class="toc-number">4.6.2.</span> <span class="toc-text">Fill (shape layer)→填充（形状图层）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Trim-Paths-shape-layer-→修剪路径（形状图层）"><span class="toc-number">4.6.3.</span> <span class="toc-text">Trim Paths (shape layer)→修剪路径（形状图层）</span></a></li></ol></li></ol></li></ol>
  
   </div>
 
 <div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
   
@@ -301,7 +301,7 @@
   
 
   <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
+  <p class="asidetitle">Links</p>
     <ul>
         
           <li>
@@ -323,11 +323,11 @@
 
 
   <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
 </div>
 
   <div class="weiboshow">
-  <p class="asidetitle">新浪微博</p>
+  <p class="asidetitle">Weibo</p>
     <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=null&verifier=b3593ceb&dpc=1"></iframe>
 </div>
 
@@ -368,7 +368,7 @@
 		<p class="copyright">
 		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
 		
-		<a href="/about" target="_blank" title="John Doe">John Doe</a>
+		<a href="/about" target="_blank" title="wink.stu">wink.stu</a>
 		
 		
 		</p>
@@ -554,7 +554,7 @@ var _hmt = _hmt || [];
 <!-- Totop Begin -->
 
 	<div id="totop">
-	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	<a title="Back to Top"><img src="/img/scrollup.png"/></a>
 	</div>
 	<script src="/js/totop.js"></script>
 
