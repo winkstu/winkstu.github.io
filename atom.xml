@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-08T14:26:45.973Z</updated>
+  <updated>2017-02-09T13:25:50.117Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://yoursite.com/2017/02/08/Lottie%E5%8A%A8%E7%94%BB%E5%BA%93%E5%AE%9E%E8%B7%B5%E5%B0%8F%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/02/08/Lottie动画库实践小记/</id>
     <published>2017-02-08T14:22:14.000Z</published>
-    <updated>2017-02-08T14:26:45.973Z</updated>
+    <updated>2017-02-09T13:25:50.117Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><code>_(:3」∠)_</code>  好紧张，第一次写文章，2017年开工之前收到一篇推送，<a href="http://mp.weixin.qq.com/s/kMY_QZOR6njO9nLk_ZC6dA" target="_blank" rel="external">这个项目碉堡了</a>。在感叹这个动画库碉堡之余，也想起自己在玩AE（After Effects）的时候也有类似的想法“在AE上编辑的动画直接能再程序用该多啊”。因为笔者之前有关注过motion动画,在AE上做过一些动画，正好可以作为demo，下面就是笔者实践过程。<code>(笑)</code></p>
+<a id="more"></a>
 <h2 id="安装bodymovin"><a href="#安装bodymovin" class="headerlink" title="安装bodymovin"></a>安装<a href="https://github.com/bodymovin/bodymovin" target="_blank" rel="external">bodymovin</a></h2><p><a href="https://github.com/bodymovin/bodymovin/blob/master/build/extension/bodymovin.zxp" target="_blank" rel="external">下载</a><br>bodymovin官方描述是一款能够将AE动画导出为svg/canvas/html+js的AE插件。同时它还可以导出描述AE动画的json文件。官方提供了三种安装方法：</p>
 <ol>
 <li>使用第三方安装器<a href="http://aescripts.com/learn/zxp-installer/" target="_blank" rel="external">ZXP installer</a>安装（推荐）</li>
@@ -162,10 +163,14 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&lt;code&gt;_(:3」∠)_&lt;/code&gt;  好紧张，第一次写文章，2017年开工之前收到一篇推送，&lt;a href=&quot;http://mp.w
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&lt;code&gt;_(:3」∠)_&lt;/code&gt;  好紧张，第一次写文章，2017年开工之前收到一篇推送，&lt;a href=&quot;http://mp.weixin.qq.com/s/kMY_QZOR6njO9nLk_ZC6dA&quot;&gt;这个项目碉堡了&lt;/a&gt;。在感叹这个动画库碉堡之余，也想起自己在玩AE（After Effects）的时候也有类似的想法“在AE上编辑的动画直接能再程序用该多啊”。因为笔者之前有关注过motion动画,在AE上做过一些动画，正好可以作为demo，下面就是笔者实践过程。&lt;code&gt;(笑)&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
+    
+      <category term="android" scheme="http://yoursite.com/tags/android/"/>
+    
+      <category term="after effects" scheme="http://yoursite.com/tags/after-effects/"/>
     
   </entry>
   
@@ -174,9 +179,10 @@
     <link href="http://yoursite.com/2016/08/30/hello-world/"/>
     <id>http://yoursite.com/2016/08/30/hello-world/</id>
     <published>2016-08-30T13:57:26.118Z</published>
-    <updated>2016-08-30T13:57:26.118Z</updated>
+    <updated>2017-02-09T13:24:22.620Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -189,7 +195,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
     
     </summary>
     
